@@ -1,0 +1,27 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "react demo babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iUAP-FE/react.git"
+  },
+  "keywords": [
+    "raect",
+    "babel"
+  ],
+  "author": "GuoYongfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iUAP-FE/react/issues"
+  },
+  "homepage": "https://github.com/iUAP-FE/react#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "react": "^0.14.0"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSX</title>
+  <script src="../vendors/react/react.js"></script>
+  <script src="../vendors/react/react-dom.js"></script>
+  <script src="../vendors/babel/browser.min.js"></script>
+</head>
+<body>
+  <div id="example"></div>
+  <!-- <script src="build/index.js"></script> -->
+  <script type="text/babel">
+    console.log(React);
+    console.log(ReactDOM);
+
+    var Counter = React.createClass({
+
+      getInitialState: function () {
+        return { clickCount: 0 };
+      },
+
+      handleClick: function () {
+        this.setState(function(state) {
+          return {clickCount: state.clickCount + 1};
+        });
+      },
+
+      render: function () {
+        return (<h2 onClick={this.handleClick}>点我点我! <br />被戳次数: {this.state.clickCount}</h2>);
+      }
+
+    });
+
+    ReactDOM.render(
+      <Counter />,
+      document.getElementById('example')
+    );
+  </script>
+</body>
+</html>

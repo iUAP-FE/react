@@ -1,0 +1,22 @@
+{
+  "name": "react-demo",
+  "description": "react demo babel",
+  "main": "index.js",
+  "authors": [
+    "GuoYongfeng"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "raect",
+    "babel"
+  ],
+  "homepage": "https://github.com/iUAP-FE/react",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
