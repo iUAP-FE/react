@@ -19,7 +19,3 @@ setInterval(() => {
     document.getElementById('container')
   );
 }, 50);
-
-// setInterval(function(){
-//   // TODO.
-// }, 50);

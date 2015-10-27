@@ -43,7 +43,3 @@ var start = new Date().getTime();
 setInterval(function () {
   ReactDOM.render(React.createElement(ExampleApplication, { elapsed: new Date().getTime() - start }), document.getElementById('container'));
 }, 50);
-
-// setInterval(function(){
-//   // TODO.
-// }, 50);

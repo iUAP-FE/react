@@ -25,5 +25,4 @@ var Counter = React.createClass({
     );
   }
 });
-
 ReactDOM.render(React.createElement(Counter, null), document.getElementById('example'));

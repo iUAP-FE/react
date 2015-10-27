@@ -14,7 +14,6 @@ var Counter = React.createClass({
     return (<h2 onClick={this.handleClick}>点我点我! <br />被戳次数: {this.state.clickCount}</h2>);
   }
 });
-
 ReactDOM.render(
   <Counter />,
   document.getElementById('example')
